@@ -1,0 +1,12 @@
+{
+  "task": "The main thing you want the AI to do",
+  "input": "The data or text the AI should work with",
+  "format": "How you want the AI's response to look",
+  "constraints": "Any rules or limits for the response",
+  "examples": [
+    {
+      "input": "Sample input for the AI",
+      "output": "Sample output you expect"
+    }
+  ]
+}

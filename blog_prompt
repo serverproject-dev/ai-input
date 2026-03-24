@@ -1,0 +1,24 @@
+{
+"prompt":
+	{
+	"type": "blog_article",
+	"topic": "sustainable living",
+	"structure":
+		{
+		"sections":
+			[
+			"introduction",
+			"benefits of sustainable living",
+			"tips for sustainable living",
+			"conclusion"
+			]
+			format: "markdown"
+			[ details:
+				{
+				word_count: 1500,
+				audience: "general"
+				}
+			]
+		}
+	}
+}
