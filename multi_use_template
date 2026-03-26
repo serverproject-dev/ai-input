@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "template_version": "2.0",
+    "use_case": "[Brief label, e.g. 'Code Review', 'Content Creation', 'Data Analysis']",
+    "author": "[Optional: your name or team]"
+  },
+
+  "role": "[Define the AI's persona, e.g. 'You are a senior software architect' or 'You are a technical writer']",
+
+  "goal": "[High-level objective — what should be achieved overall, e.g. 'Help refactor legacy Python code for readability and performance']",
+
+  "task": {
+    "primary": "[The core action to perform, e.g. 'Summarize the following document']",
+    "secondary": "[Optional follow-up action, e.g. 'Then suggest three improvements']",
+    "scope": "[What is in/out of scope, e.g. 'Focus only on the introduction and conclusion sections']"
+  },
+
+  "context": {
+    "background": "[Relevant context the AI needs, e.g. 'This is for a non-technical executive audience']",
+    "audience": "[Who will consume the output, e.g. 'Junior developers', 'Marketing team', 'End users']",
+    "domain": "[Field or subject area, e.g. 'DevOps', 'Healthcare', 'E-commerce']"
+  },
+
+  "input": {
+    "data": "[The actual text, code, or data to work with — paste it here]",
+    "source_type": "[Type of input, e.g. 'raw text', 'JSON', 'Python snippet', 'user story']",
+    "notes": "[Any quirks or caveats about the input, e.g. 'This may contain typos']"
+  },
+
+  "output": {
+    "format": "[Desired format, e.g. 'Markdown bullet list', 'JSON', 'Plain prose', 'Table']",
+    "length": "[Rough length guidance, e.g. 'Max 300 words', 'As detailed as needed', '5 bullet points']",
+    "structure": "[Optional section headings or order, e.g. 'Summary → Key Issues → Recommendations']",
+    "tone": "[Desired tone, e.g. 'Formal', 'Concise', 'Friendly', 'Technical']"
+  },
+
+  "constraints": [
+    "[Rule 1, e.g. 'Do not use jargon']",
+    "[Rule 2, e.g. 'Always cite line numbers when referencing code']",
+    "[Rule 3, e.g. 'Do not invent data not present in the input']"
+  ],
+
+  "examples": [
+    {
+      "label": "[Descriptive name for this example, e.g. 'Happy path']",
+      "input": "[Sample input]",
+      "output": "[Expected output]"
+    },
+    {
+      "label": "[Edge case or alternative, e.g. 'Empty input']",
+      "input": "[Sample edge-case input]",
+      "output": "[Expected output for edge case]"
+    }
+  ],
+
+  "iteration": {
+    "ask_clarification": "[true/false — should the AI ask before proceeding if something is unclear?]",
+    "offer_alternatives": "[true/false — should the AI offer variant outputs?]",
+    "self_critique": "[true/false — should the AI briefly evaluate its own response at the end?]"
+  }
+}
